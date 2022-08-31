@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+        
+        <title>Englebert Humperdink's Word Look-er-Up-er</title>
+
+    </head>
+    <body>
+            <header class="container">
+                <h2>Englebert Humperdink's <br/>
+                Word Look-er-Up-er</h2>    
+            </header>
+
+        <section class="container">
+
+             <div class="grid">
+                 <div><input type="text" placeholder="type word here" value=""></div>
+                 <div><button>Search</button></div>
+             </div>
+             <article class="container-fluid">
+                 <h3 id="word"></h3>
+                 <h6 id="syntax"></h6>
+                 <h6 id="pronunciation"></h6>
+                 <p id="short"></p>
+             </article>
+
+        </section>
+
+        <script src="app.js"></script>
+    </body>
+    </html>
