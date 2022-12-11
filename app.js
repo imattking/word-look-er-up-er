@@ -17,7 +17,7 @@ button.addEventListener('click', () => {
             console.log(data);
             // repeat serach term in the DOM
             document.querySelector('#word').innerHTML = `${word}`;
-            // access array and place part of speech in the COM
+            // access array and place part of speech in the DOM
             document.querySelector('#syntax').innerHTML = `<em>${data[0].fl}</em>`
             // acces array and place pronunciation in the DOM
             document.querySelector('#pronunciation').innerHTML = `pronunciation: ${data[0].hwi.prs[0].mw}`
